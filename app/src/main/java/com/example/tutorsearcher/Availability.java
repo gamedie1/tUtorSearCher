@@ -15,6 +15,9 @@ public class Availability {
         this.endtime = endTime;
     }
 
+    public Availability(String day){
+        this.day = day;
+    }
     /**
      * Changes the timeslot for availability on a certain day
      * @param starttime new start time
